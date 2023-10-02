@@ -14,16 +14,16 @@ const productos = [
   new Producto(
     4,
     "Age of Empires II: Definitive Edition",
-    "",
+    "../img/products-AoE",
     "Estrategia",
     "XxTheRexxX",
-    1500,
+    1550,
     "Terraria"
   ),
   new Producto(
     5,
     "Project Zomboid",
-    "",
+    "../img/products-Project-Zomboid",
     "Zombis",
     "Juan_sE04",
     700,
@@ -32,7 +32,7 @@ const productos = [
   new Producto(
     6,
     "Subnautica",
-    "",
+    "../img/products-Subnautica",
     "Aventura",
     "TheAnarkist0023",
     2000,
@@ -41,7 +41,7 @@ const productos = [
   new Producto(
     7,
     "Telltale games: The Walking Dead",
-    "",
+    "../img/products-TWD",
     "Aventura",
     "Fakt0s",
     1200,
@@ -50,7 +50,7 @@ const productos = [
   new Producto(
     8,
     "Undertale",
-    "",
+    "../img/products-Undertale",
     "Indie",
     "Free G",
     700,
@@ -59,7 +59,7 @@ const productos = [
   new Producto(
     9,
     "LEGO:STARWARS The Complete Saga",
-    "",
+    "../img/products-lego-starwars-the-complete-saga",
     "Acción",
     "Zekinat0r",
     1260,
@@ -69,7 +69,7 @@ const productos = [
   new Producto(
     10,
     "Detroit: Become Human",
-    "",
+    "../img/products-detroit-become-human",
     "Aventura",
     "GGcorazonMessi",
     2000,
@@ -78,7 +78,7 @@ const productos = [
   new Producto(
     11,
     "Evolve",
-    "",
+    "../img/products-Evolve",
     "Acción",
     "Enigma789",
     1020,
@@ -87,7 +87,7 @@ const productos = [
   new Producto(
     12,
     "Don't Starve Together",
-    "",
+    "../img/products-dont-starve-together",
     "Aventura",
     "RamiMG02",
     300,

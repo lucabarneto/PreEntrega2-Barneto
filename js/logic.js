@@ -32,19 +32,6 @@ const intercambioValido = (id) => {
   }
 };
 
-/*Inicio de sesión, si quieren pueden comentarlo xq despues de hacer refresh a la pag muchas veces s evuelve cansador */
-let inicioSesionUsuario = prompt(
-  "INICIO DE SESION \nEscribe tu nombre de usuario"
-);
-let inicioSesionContraseña = prompt("INICIO DE SESION \nEscribe tu contraseña");
-let inicioSesionValidacion = alert(
-  `Datos validados. ¡Bienvenido ${inicioSesionUsuario}!`
-);
-
-let introduccion = alert(
-  `¡Bienvenido a Horizon, el mejor sitio para intercambiar videojuegos con usuarios reales! Podrás ver los juegos que tú tienes actualmente y negociar con aquellos usuarios que les interese probarlo. También puedes intercambiar el videojuego que desees por el monto que pida el usuario.`
-);
-
 mostrarProductos();
 intercambiarProducto();
 let tienda = parseInt(prompt(listaProductos));

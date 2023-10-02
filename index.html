@@ -8,10 +8,147 @@
       name="description"
       content="Hola! Soy Luca Barneto y este es mi E-Commerce para el curso de Javascript de Coderhouse"
     />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Bienvenido a Horizon</h1>
-    <script src="./js/database.js"></script>
-    <script src="./js/logic.js"></script>
+    <header id="header">
+      <h1>Bienvenido a Horizon</h1>
+      <div></div>
+    </header>
+    <main>
+      <section id="products">
+        <h2>Lista de juegos</h2>
+        <div class="card">
+          <img src="./img/img-not-found.jpeg" alt="image not found" />
+          <div class="card__content">
+            <div>
+              <strong class="text-125">Nombre del juego</strong> -
+              <small>Género del juego</small>
+            </div>
+            <div>
+              Nombre de usuario lo intercambia por <strong>Juego</strong> o
+              <strong>precio</strong>
+            </div>
+            <button id="trade-btn" class="btn">Intercambiar</button>
+          </div>
+        </div>
+        <!-- Juegos en el js -->
+      </section>
+      <section id="inventory">
+        <h2>Tu inventario</h2>
+        <div class="card">
+          <img src="./img/img-not-found.jpeg" alt="image not found" />
+          <div class="card__content">
+            <div>
+              <strong class="text-125">Nombre del juego</strong> -
+              <small>Género del juego</small>
+            </div>
+          </div>
+        </div>
+        <!-- Inventario en el js -->
+      </section>
+    </main>
+    <aside id="filters">
+      <h2>Filtrar por</h2>
+      <div id="filters__genre" class="filter">
+        <h3>Género</h3>
+        <ul type="none">
+          <li>
+            <input type="radio" name="filter-genre" id="filter-genre-todos" />
+            <label for="filter-genre-todos">Todos</label>
+          </li>
+          <li>
+            <input type="radio" name="filter-genre" id="filter-genre-accion" />
+            <label for="filter-genre-accion">Acción</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="filter-genre"
+              id="filter-genre-aventura"
+            />
+            <label for="filter-genre-aventura">Aventura</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="filter-genre"
+              id="filter-genre-estrategia"
+            />
+            <label for="filter-genre-estrategia">Estrategia</label>
+          </li>
+          <li>
+            <input type="radio" name="filter-genre" id="filter-genre-indie" />
+            <label for="filter-genre-indie">Indie</label>
+          </li>
+          <li>
+            <input type="radio" name="filter-genre" id="filter-genre-rol" />
+            <label for="filter-genre-rol">Rol</label>
+          </li>
+          <li>
+            <input type="radio" name="filter-genre" id="filter-genre-zombies" />
+            <label for="filter-genre-zombies">Zombies</label>
+          </li>
+        </ul>
+      </div>
+      <div id="filters__price" class="filter">
+        <h3>Precio</h3>
+        <ul type="none">
+          <li>
+            <input type="radio" name="filter-price" id="filter-price-todos" />
+            <label for="filter-price-todos">Todos</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="filter-price"
+              id="filter-price-menor500"
+            />
+            <label for="filter-price-menor500">Menos de 500</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="filter-price"
+              id="filter-price-500y1000"
+            />
+            <label for="filter-price-500y1000">Entre 500 y 1000</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="filter-price"
+              id="filter-price-1000y1500"
+            />
+            <label for="filter-price-1000y1500">Entre 1000 y 1500</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="filter-price"
+              id="filter-price-1500y2000"
+            />
+            <label for="filter-price-1500y2000">Entre 1500 y 2000</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="filter-price"
+              id="filter-price-mayor2000"
+            />
+            <label for="filter-price-mayor2000">Más de 2000</label>
+          </li>
+        </ul>
+      </div>
+      <button id="color-scheme" class="btn">Dark mode</button>
+    </aside>
+    <footer id="footer">
+      <div></div>
+      <p>Copyright 2023 Luca Barneto. All rights reserved</p>
+    </footer>
+    <script src="./js/scripts.js"></script>
+    <!-- <script src="./js/database.js"></script>
+    <script src="./js/logic.js"></script> -->
   </body>
 </html>
